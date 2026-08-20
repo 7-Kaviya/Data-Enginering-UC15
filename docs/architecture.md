@@ -7,7 +7,7 @@ Data flows in one direction, left to right, from raw ERP source files through to
 ## Layers
 
 **1. ERP Source Files**
-Raw exports from the 9 ERP modules (Finance, Procurement, Sales, Inventory, Manufacturing, HR, Warehouse, Asset Management, Vendor/Customer Master), in CSV, Excel, JSON, XML, or SQL format.
+Raw exports from the multiple ERP modules (Finance, Procurement, Sales, Inventory, Manufacturing, HR, Warehouse, Asset Management, Vendor/Customer Master), in CSV, Excel, JSON, XML, or SQL format.
 
 **2. Pentaho ETL (Spoon)**
 Reads each source format using a dedicated transformation per source. Handles basic error logging and routes failed records separately, without transforming the data's meaning — just moving it.
