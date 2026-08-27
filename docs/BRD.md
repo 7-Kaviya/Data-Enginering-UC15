@@ -58,7 +58,7 @@ Design and implement an enterprise-grade ERP data platform that:
 ## 8. Data Sources
 The platform ingests data from 10 ERP data sources, covering 9 business modules:
 
-Finance · Procurement · Sales · Inventory Management · Manufacturing · Human Resources · Warehouse Management · Asset Management · Customer Master · Accounts Payable & Receivable
+Finance · Procurement · Sales · Inventory Management · Manufacturing · Human Resources · Warehouse Management · Asset Management · Customer Master · Accounts Receivable & Payable 
 
 | Source ID | Module | Format |
 |---|---|---|
