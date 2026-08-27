@@ -10,7 +10,7 @@ Data flows in one direction, left to right, from raw ERP source files through to
 Raw exports from the multiple ERP modules (Finance, Procurement, Sales, Inventory, Manufacturing, HR, Warehouse, Asset Management, Vendor/Customer Master), in CSV, Excel, JSON, XML, or SQL format.
 
 **2. Pentaho ETL (Spoon)**
-Reads each source format using a dedicated transformation per source. Handles basic error logging and routes failed records separately, without transforming the data's meaning just moving it.
+Reads each source format using a dedicated transformation per source. Handles basic error logging and routes failed records separately, without transforming the data's meaning - just moving it.
 
 **3. PostgreSQL Staging**
 Raw data lands here almost exactly as it came from the source, plus audit columns (`load_timestamp`, `source_file`). This preserves an unmodified copy for traceability before any cleaning happens.
