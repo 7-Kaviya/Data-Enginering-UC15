@@ -32,7 +32,7 @@ Design and implement an enterprise-grade ERP data platform that:
 
 ## 5. Scope
 
-**In scope:** Ingesting data from 9 ERP modules (CSV, Excel, JSON, XML, SQL) into a PostgreSQL staging layer; profiling and cleaning; building a warehouse and reports in later sprints; version control via Git.
+**In scope:** Ingesting data from multiple ERP modules (CSV, Excel, JSON, XML, SQL) into a PostgreSQL staging layer; profiling and cleaning; building a warehouse and reports in later sprints; version control via Git.
 
 **Out of scope:** Real-time streaming, replacing the existing ERP, mobile apps. Sample/academic data is used in place of a live ERP connection.
 
@@ -56,5 +56,19 @@ Design and implement an enterprise-grade ERP data platform that:
 - Version-control all ETL code and documentation in Git
 
 ## 8. Data Sources
-Finance · Procurement · Sales · Inventory · Manufacturing · HR · Warehouse · Asset Management · Vendor & Customer Master Data
+The platform ingests data from 10 ERP data sources, covering 9 business modules:
 
+Finance · Procurement · Sales · Inventory Management · Manufacturing · Human Resources · Warehouse Management · Asset Management · Customer Master · Accounts Payable & Receivable
+
+| Source ID | Module | Format |
+|---|---|---|
+| SRC-01 | Finance | CSV |
+| SRC-02 | Human Resources | Excel |
+| SRC-03 | Customer Master | JSON |
+| SRC-04 | Manufacturing | XML |
+| SRC-05 | Procurement | SQL |
+| SRC-06 | Sales | CSV |
+| SRC-07 | Inventory Management | JSON |
+| SRC-08 | Warehouse Management | SQL |
+| SRC-09 | Asset Management | XML |
+| SRC-10 | Accounts Payable & Receivable | Excel |
