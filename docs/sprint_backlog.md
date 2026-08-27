@@ -1,4 +1,4 @@
-# Product Backlogs
+# Product Backlog
 ### ERPDP — ABC Global Enterprises Ltd.
 
 | ID | User Story | Priority | Sprint |
